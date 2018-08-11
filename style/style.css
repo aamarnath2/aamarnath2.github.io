@@ -26,11 +26,7 @@ html {
 .section-title{
     padding-bottom: 3%;
     text-transform: uppercase;
-<<<<<<< HEAD
-    color: #07507f
-=======
     color: #07507f;
->>>>>>> 1ea2eb9468e9cfd4f9b524549cbc4f14fa66c8eb
 }
 
 section {
@@ -61,10 +57,6 @@ h2 {
 
 h3 {
     font-size: 2rem;
-<<<<<<< HEAD
-    word-spacing: 0,1
-=======
->>>>>>> 1ea2eb9468e9cfd4f9b524549cbc4f14fa66c8eb
     text-align: center;
 }
 
@@ -181,16 +173,16 @@ nav a {
 
  .quote {
     text-align: center;
-    padding: 18% 4% 13% 4%; 
-    font-size: 0.9rem;
+    padding: 12% 4% 0 4%; 
+    font-size: .75rem;
 }
 
-.quote h2 {
-    margin-bottom: 3%;
+.quote p {
+    font-size: 2.0rem;
 }
 
 .me-description {
-    padding: 8% 1%;
+    padding: 4% 1%;
 }
 
 .me-description h2 {
@@ -201,7 +193,11 @@ nav a {
     color: #333;
     padding-left: 1.0%;
     padding-right: 1.0%;
-    font-size: 1.4rem;
+    font-size: 1rem;
+}
+
+.usc img {
+    width: 15rem;
 }
 
 /* ===== Skills/Interests ===== */
