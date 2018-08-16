@@ -24,6 +24,7 @@ html {
 }
 
 .section-title{
+    padding-top: 3%;
     padding-bottom: 3%;
     text-transform: uppercase;
     color: #07507f;
@@ -33,14 +34,18 @@ section {
     padding: 3% 0 3% 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 /* ===== HEADINGS & PARAGRAPHS ================= */
 h1, h2, h3 {
-    font-weight: 300;
+    font-weight: 700;
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3.0rem;
     margin-top: 0;
     margin-bottom: 0;
     letter-spacing: 0.08rem;
@@ -48,7 +53,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     text-align: center;
     word-spacing: 0.2rem;
     margin-bottom: 30px;
@@ -66,50 +71,76 @@ p {
 }
 
 
-/* ===== Header ===== */
+/* ===== NAV BAR =====*/
 nav {
-    background-color: #2C3E50;
-    color: white;
+    position: fixed;
+    top: 0;
     width: 100%;
+    float: right;
+    display: inline-block;
+    font-weight: 200;
+    z-index: 0;
 }
 
-nav li{
-    display: inline;
-    padding: 10px;
+.transparent {
+    background-color: transparent;
 }
 
-nav a {
-    text-decoration: none;
+
+nav .landing-link {
+    display: inline-block;
+    padding: 2%;
     color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
-/* ===== LANDING SCREEN ===== */
-.landing {
+nav ul {
+    list-style-type: none;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    display: inline;
+    font-size: 1rem;
+}
+
+nav li {
+    display: inline-block;;
+    float: right;
+    padding: 2.5% 2%;
+}
+
+nav a:link, nav a:visited {
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc3d;
+    transition: color 0.1s;
+}
+
+
+/* ===== LANDING SCREEN/HEADER ===== */
+
+
+#landing {
     width: 100vw;
-    height: 100vh;
+    height: 60vh;
     background: linear-gradient(to top, #07507f, #72b0D9);
     display: table;
 }
 
-.landing-bckgrnd {
-    background-color: #FFFFFF;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-}
 
 .landing-text {
     text-transform: uppercase;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    z-index: 999;
+    padding-top: 8%;
+    padding-bottom: 3%;
 }
 
-.landing .landing-text h1 {
+#landing .landing-text h1 {
     font-weight: 700;
     margin-bottom: 10px;
     display: inline;
@@ -117,7 +148,7 @@ nav a {
 }
 
 .landing-description {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     padding-top: 1%;
     padding-bottom: 0.6%;
     text-align: center;
@@ -137,21 +168,17 @@ nav a {
     
 }
 
-.my-links a {
-    text-decoration: none;
-}
-
 .my-links a:link, .my-links a:visited {
     color: #fff;
     transition: color 0.3s;
 }
 
 .my-links a:hover, .my-links a:active {
-    color: rgb(5, 5, 5);
+    color: #4995c7;
 }
 
 .my-links i {
-    font-size: 2.8rem;
+    font-size: 2.0rem;
 }
 
 /*===== ABOUT ME =====*/
@@ -165,7 +192,6 @@ nav a {
 .me-description, .quote {
     height: 100%;
     vertical-align: middle;
-    position: relative;
     padding: none;
     color: #096eaf;
    
@@ -213,7 +239,7 @@ nav a {
 }
 
 .skill-list {
-    padding: 2% 1%;
+    padding: 0% 1%;
 }
 
 .skill-type {
@@ -272,8 +298,6 @@ nav a {
 
 .job-detail {
     padding-left: 10%;
-    margin-top: 7%;
-    margin-bottom: 7%;
     padding-right: 4%;
 }
 
@@ -331,3 +355,8 @@ nav a {
     padding: 2% 15% 5% 15%;
     font-size: 1rem;
 }
+
+
+
+
+
