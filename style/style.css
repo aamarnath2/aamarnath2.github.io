@@ -282,7 +282,13 @@ nav a:hover {
     text-align: center;
 }
 
-.epri img{
+.fb img {
+    width: 12rem;
+    padding-bottom: 3%;
+    margin: 3% auto 0 40%;
+}
+
+.epri img {
     width: 12rem;
     padding-top: 15%;
     padding-bottom: 3%;
@@ -290,7 +296,7 @@ nav a:hover {
 }
 
 
-.ttl img{
+.ttl img {
     width: 9rem;
     padding-top: 10%;
     margin: 5% 0 0 50%;
@@ -339,7 +345,7 @@ nav a:hover {
     color: #07507f;
 }
 
-.project-template{
+.project-template {
     text-align: center;
 }
 
