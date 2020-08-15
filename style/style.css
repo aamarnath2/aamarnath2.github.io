@@ -24,7 +24,7 @@ html {
 }
 
 .section-title{
-    padding-top: 3%;
+    padding-top: 6%;
     padding-bottom: 3%;
     text-transform: uppercase;
     color: #07507f;
@@ -36,7 +36,9 @@ section {
 
 a {
     text-decoration: none;
+    color:  #4995c7;
 }
+
 
 
 /* ===== HEADINGS & PARAGRAPHS ================= */
@@ -70,6 +72,11 @@ p {
     font-size: 1rem;;
 }
 
+
+p a:hover {
+    color: #ffcc3d;
+    transition: color 0.1s;
+}
 
 /* ===== NAV BAR =====*/
 nav {
@@ -273,38 +280,47 @@ nav a:hover {
 .job {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3%;
     vertical-align: middle;
+    margin: 0;
 }
 
 .job-image {
     display: inline-block;
     text-align: center;
+    top: 50%;
+}
+
+.aws img {
+    width: 10rem;
+    margin: 30% auto auto 40%;
 }
 
 .fb img {
-    width: 12rem;
+    width: 7rem;
     padding-bottom: 3%;
-    margin: 3% auto 0 40%;
+    margin: 18% auto auto 40%;
 }
 
 .epri img {
-    width: 12rem;
+    width: 9rem;
     padding-top: 15%;
     padding-bottom: 3%;
-    margin: 10% auto 0 40%;
+    margin: 10% auto auto 40%;
 }
 
 
 .ttl img {
     width: 9rem;
     padding-top: 10%;
-    margin: 5% 0 0 50%;
+    padding-right: 10%;
+    margin: 5% auto auto 50%;
 }
+
 
 .job-detail {
     padding-left: 10%;
     padding-right: 4%;
+    top: 50%;
 }
 
 .job-position, .job-company, .job-dates, .job-description {
@@ -363,6 +379,9 @@ nav a:hover {
 }
 
 
+.project-title {
+    color: #2980b9;
+}
 
 
 
